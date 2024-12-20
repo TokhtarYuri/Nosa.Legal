@@ -1,0 +1,66 @@
+{
+    "main": {
+        "home":"Home"
+    },
+    "about_us": {
+        "title": "Who are we?",
+        "who_we_are": "A boutique attorney-at-law office where professionalism, expertise, knowledge of local languages and culture help businesses feel at home in Slovakia and thrive.",
+        "description": "Over the years of collaboration with leading specialists in various disciplines, we have been able to establish a network of professionals, which enhances our ability to provide clients with top-notch legal counselling across a broad spectrum of issues.",
+        "international_ties": "In addition, through a multitude of international cases, we have built strong ties with colleagues in Austria, Czech Republic, Croatia, Bulgaria, Germany, Italy, Hungary, Poland, Romania, Turkey and Ukraine.",
+        "tagline": "Your local international counsel in Slovakia."
+    },
+    "why_us": {
+        "title": "Why us?",
+        "description": "At Nosa Legal, we’re committed to providing our clients with the best possible service and helping them achieve their desired goals. Moreover, in our clients’ best interests, we do not hesitate to go beyond the minimal legal requirements pertaining to legal services.",
+        "commitment": "We will be there for you personally and locally, we will speak human language, we will help you to understand the context in which you wish to operate, and we will fight each of your fights as our own.",
+        "unique_approach": "Although we do not have an ambition to be a one-stop shop for all your needs, our longstanding collaboration with a wide range of experts in legal subfields and related professions usually allows us to find the right solutions through interdisciplinary and international reach.",
+        "values": "Sincere. Professional."
+    },
+    "services": {
+        "title": "What’s on offer?",
+        "description": "Our principal goal is to provide our clients with a full scope of services in commercial, civil, and administrative law. Our area of expertise lies in the structuring of cross-border transactions and businesses with an emphasis on market entry and acquisitions. We further focus on contract drafting, general corporate counselling, representation in administrative and tax proceedings, real estate transactions and litigation.",
+        "expertise": "We strongly believe that investing in qualified legal advice always yields a good return. The engagement of an attorney is the most efficient during the planning stage or within initial negotiations with prospective partners. Doing so usually allows our clients to minimize the risks, secure the most favourable terms, and lay a solid legal foundation for a new undertaking.",
+        "benefits": "We are here to help you to avoid conflicts. However, should a misunderstanding occur, we are ready to defend your interests through crisis negotiation, alternative dispute resolution or in a tribunal of any kind.",
+        "values": "Integrity. Reliability."
+    },
+    "working_method": {
+        "title": "How it works?",
+        "process": "If you send us a message or call us, we will respond as soon as possible, usually - within 24 hours. We will then briefly discuss your issue to ensure that there is no conflict of interest and to determine whether we can help, provided that such discussion cannot be regarded as legal advice since you are not our client yet.",
+        "offer": "Should you be interested in becoming our client, we will send you our engagement letter. This letter will specify in writing information pertaining to our fees, the conditions of our cooperation, and the obligations of both parties. It may also include the mandatory KYC (Know Your Customer) form.",
+        "next_steps": "Once you have accepted the proposed conditions of cooperation, we start to work for you. We usually begin our work with a review of your case, which results in an initial report with a legal analysis of your case based on the provided documents, along with our vision of the next steps. As your case develops, we will regularly inform you of the progress made. In the event of any new circumstances or developments in your case, we will notify you once they become known to us.",
+        "values": "Diligently. Efficiently."
+    },
+    "pricing": {
+        "title": "What’s the price?",
+        "policy": "As a part of our commitment to our clients, we acknowledge their expectations of reasonable pricing and that clients usually expect a forecast of case expenses. We are always straightforward about our foreseeable charges and willing to consider alternative fee arrangements. On the other hand, we reserve the right to require a retainer.",
+        "flexibility": "Since there are hardly identical cases in legal practice, we prefer not to use standard fees. Instead, our pricing is based on the complexity of the case, its value, its urgency and the risks involved. Our work may be billed based on an hourly fee, a fixed fee for a specific task, a success fee or a combination thereof.",
+        "exception": "In exceptional cases, we may provide legal advice at a discounted rate or free of charge.",
+        "values": "Transparent. Fair."
+    },
+    "references": {
+        "title": "How about references?",
+        "description": "Since we do religiously obey attorney-client privilege, we may disclose only areas of business some of our clients operate in:",
+        "industries": [
+            "renewable energy technologies",
+            "assembly and sub-assembly of metal products",
+            "drone design and manufacturing",
+            "grain trade and brokerage",
+            "construction and operation of real estate",
+            "provision of courier and postal services",
+            "telco services",
+            "road vehicle manufacturing",
+            "garments production",
+            "art brokerage",
+            "railway and road transportation",
+            "healthcare services"
+        ],
+        "more": "and many more…",
+        "values": "Attorney-client privilege first."
+    },
+    "contact": {
+        "title": "Contacts:",
+        "address": "699/2 Koreničova Str.\n811 03 Bratislava\nSlovak Republic",
+        "phone": "+421 948 043 449",
+        "email": "bratislava@nosa.legal"
+    }
+}

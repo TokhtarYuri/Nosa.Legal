@@ -1,0 +1,66 @@
+{
+    "main": {
+        "home":"home"
+    },
+    "about_us": {
+        "title": "Kto sme?",
+        "who_we_are": "Butiková advokátska kancelária, v ktorej profesionalita, odborné znalosti a znalosť miestnych jazykov a kultúry pomáhajú podnikateľom cítiť sa na Slovensku ako doma a prosperovať.",
+        "description": "Za roky spolupráce s poprednými odborníkmi v rôznych oblastiach sa nám podarilo vytvoriť sieť profesionálov, ktorá zvyšuje našu schopnosť poskytovať klientom špičkové právne poradenstvo v širokom spektre otázok.",
+        "international_ties": "Okrem toho, vďaka množstvu medzinárodných prípadov sa nám podarilo vybudovať silné väzby s kolegami v Bulharsku, Chorvátsku, Českej republike, Maďarsku, Nemecku, Poľsku, Rakúsku, Rumunsku, Taliansku, Turecku a na Ukrajine.",
+        "tagline": "Váš miestny medzinárodný advokát na Slovensku."
+    },
+    "why_us": {
+        "title": "Prečo práve my?",
+        "description": "V advokátskej kancelárii Nosa Legal sa snažíme poskytovať našim klientom tie najlepšie služby a pomáhať im dosiahnuť ich vytúžené ciele. Okrem toho v najlepšom záujme našich klientov neváhame ísť nad rámec minimálnych zákonných požiadaviek týkajúcich sa právnych služieb. ",
+        "commitment": "Inými slovami, budeme Vám k dispozícii osobne a lokálne, budeme hovoriť ľudskou rečou, pomôžeme Vám pochopiť kontext, v ktorom chcete pôsobiť, a každý Váš boj budeme viesť ako svoj vlastný.",
+        "unique_approach": "Aj keď nemáme ambíciu byť univerzálnym partnerom pre všetky Vaše potreby, naša dlhoročná spolupráca so širokou škálou odborníkov v právnych oblastiach a súvisiacich profesiách nám zvyčajne umožňuje nájsť správne riešenia vďaka interdisciplinárnemu a medzinárodnému dosahu.",
+        "values": "Úprimní. Profesionálni."
+    },
+    "services": {
+        "title": "Čo ponúkame?",
+        "description": "Naším hlavným cieľom je poskytovať našim klientom komplexné služby v oblasti obchodného, občianskeho a správneho práva. Špecializujeme sa na štruktúrovanie cezhraničných transakcií a biznisu s dôrazom na vstup na trh a akvizície. Ďalej sa zameriavame na prípravu zmlúv, právo obchodných spoločností, zastupovanie v správnych a daňových konaniach, transakcie s nehnuteľnosťami a zastupovanie pred súdmi.",
+        "expertise": "Pevne veríme, že investícia do kvalifikovaných právnych služieb vždy prináša dobrú návratnosť. Angažovanie právnika je najefektívnejšie vo fáze plánovania alebo v rámci úvodných rokovaní s potenciálnymi partnermi. Takýto postup zvyčajne umožňuje našim klientom minimalizovať riziká, zabezpečiť najvýhodnejšie podmienky a položiť pevné právne základy pre nový podnik.",
+        "benefits": "Sme tu pre to, aby sme Vám pomohli vyhnúť sa konfliktom. Ak však dôjde k nedorozumeniu, sme pripravení hájiť Vaše záujmy prostredníctvom krízových rokovaní, alternatívneho riešenia sporov alebo pred akýmkoľvek súdom.",
+        "values": "Čestnosť. Spoľahlivosť."
+    },
+    "working_method": {
+        "title": "Ako pracujeme?",
+        "process": "Ak nám pošlete správu alebo nám zavoláte, odpovieme Vám čo najskôr, zvyčajne - do 24 hodín. Potom si spolu prejdeme Vašu vec, aby sme sa uistili, že nedochádza ku konfliktu záujmov a aby sme zistili, či Vám môžeme pomôcť, pričom takúto diskusiu nemožno považovať za právnu službu, keďže ešte nie ste naším klientom.",
+        "offer": "Ak prejavíte záujem stať sa naším klientom, zašleme Vám náš list-ofertu. Takýto list bude obsahovať informácie týkajúce sa našich cien našich služieb, podmienok našej spolupráce a záväzkov oboch strán. List-oferta môže tiež obsahovať povinný formulár KYC (Know Your Customer).",
+        "next_steps": "Po prijatí navrhovaných podmienok spolupráce začíname pracovať pre Vás. Spravidla na úvod pristupujeme k rozboru Vašej veci, v rámci ktorého na základe poskytnutých dokumentov spracujeme predbežnú právnu analýzu Vášho prípadu, ako aj náš návrh ďalších krokov. V priebehu vývoja Vášho prípadu Vás budeme pravidelne informovať o dosiahnutom pokroku. V prípade výskytu nových okolností alebo udalosti, Vás budeme informovať ihneď, ako sa o nich dozvieme.",
+        "values": "Svedomito. Efektívne."
+    },
+    "pricing": {
+        "title": "Aká je cena?",
+        "policy": "V rámci politiky poskytovania špičkových služieb našim klientom, vnímame očakávanie adekvátnej cenotvorby a to, že klienti zvyčajne očakávajú prognózu nákladov na prípad. O našich cenách a nákladoch, ktoré možno predvídať, hovoríme vždy na rovinu a sme ochotní zvážiť alternatívne spôsoby odmeňovania. Na druhej strane si vyhradzujeme právo požadovať zálohu.",
+        "flexibility": "Keďže v právnej praxi sa takmer nevyskytujú totožné prípady, nepoužívame štandardné ceny. Namiesto toho sa naše ceny odvíjajú od zložitosti veci, jej hodnoty, jej naliehavosti a súvisiacich rizík. Naša práca môže byť účtovaná na základe hodinovej odmeny, fixnej odmeny za konkrétnu úlohu, odmeny za úspech alebo ich kombinácie.",
+        "exception": "Vo výnimočných prípadoch môžeme poskytovať právne poradenstvo so zľavou alebo bezplatne.",
+        "values": "Transparentná. Férová."
+    },
+    "references": {
+        "title": "A čo referencie?",
+        "description": "Keďže dôsledne dodržiavame advokátsku mlčanlivosť, môžeme zverejniť len oblasti podnikania, v ktorých pôsobia niektorí naši klienti:",
+        "industries": [
+            "technológie obnoviteľných zdrojov energie",
+            "montáž a submontáž kovových výrobkov",
+            "konštrukcia a výroba dronov",
+            "obchod s obilím",
+            "výstavba a prevádzka nehnuteľností",
+            "poskytovanie kuriérskych a poštových služieb",
+            "telekomunikačné služby",
+            "výroba cestných vozidiel",
+            "výroba odevov",
+            "obchod s umeleckými dielami",
+            "železničná a cestná doprava",
+            "zdravotnícke služby"
+        ],
+        "more": "a mnoho ďalších...",
+        "values": "Mlčanlivosť predovšetkým."
+    },
+    "contact": {
+        "title": "Kontaktné údaje:",
+        "address": "Koreničova 699/2\n811 03 Bratislava\nSlovenská republika",
+        "phone": "tel.: +421 948 043 449",
+        "email": "email: bratislava@nosa.legal"
+    }
+}
