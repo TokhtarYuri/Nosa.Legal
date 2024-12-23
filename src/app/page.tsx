@@ -1,11 +1,10 @@
 'use client';
 
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import styles from './page.module.css';
 
-// Ленивый импорт компонентов
 const HowItWorks = React.lazy(() => import("./components/HowItWorks/HowItWorks"));
 const References = React.lazy(() => import("./components/References/References"));
 const WhatsOnOffer = React.lazy(() => import("./components/WhatsOnOffer/WhatsOnOffer"));
@@ -20,17 +19,34 @@ export default function Home() {
   useEffect(() => {
     const checkContainer = () => {
       const container = document.querySelector('.main_container');
-      console.log(container); // Проверяем наличие в DOM
+      console.log(container);
       if (container) {
         setIsLoaded(true);
       }
     };
 
-    // Ждем, пока компоненты не загружены
     if (isLoaded) {
       checkContainer();
     }
   }, [isLoaded]);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    };
+
+    handleHashChange();
+
+    window.addEventListener("hashchange", handleHashChange);
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange);
+    };
+  }, []);
 
   return (
     <>

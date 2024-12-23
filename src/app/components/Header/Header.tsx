@@ -1,25 +1,33 @@
-// Header.tsx
 'use client';
 
-import { useTranslation } from "react-i18next";
+import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './Header.module.css';
 
 export default function Header() {
   const { t, i18n } = useTranslation();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+    const storedLang = localStorage.getItem('language') || 'en';
+    i18n.changeLanguage(storedLang).catch((err) =>
+      console.error('[Header] Error changing language:', err)
+    );
+  }, [i18n]);
 
   const changeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang);
-    if (typeof window !== 'undefined' && window.localStorage) {
-      localStorage.setItem('language', lang);
-    }
+    i18n.changeLanguage(lang).then(() => {
+      localStorage.setItem('language', lang); 
+    });
   };
 
-  const handleScroll = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const getClassName = (lang: string) =>
+    i18n.language === lang ? styles.active : '';
+
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <header className={styles.header}>
@@ -32,19 +40,19 @@ export default function Header() {
           </div>
           <nav>
             <ul className={styles.nav}>
-              <li onClick={() => handleScroll('about-us')}>{t("header.who_are_we")}</li>
-              <li onClick={() => handleScroll('why-us')}>{t("header.why_us")}</li>
-              <li onClick={() => handleScroll('services')}>{t("header.offer")}</li>
-              <li onClick={() => handleScroll('works')}>{t("header.works")}</li>
-              <li onClick={() => handleScroll('price')}>{t("header.price")}</li>
-              <li onClick={() => handleScroll('references')}>{t("header.references")}</li>
-              <li onClick={() => handleScroll('contact')}>{t("header.contacts")}</li>
+              <li><a href="#about-us">{t('header.who_are_we')}</a></li>
+              <li><a href="#why-us">{t('header.why_us')}</a></li>
+              <li><a href="#services">{t('header.offer')}</a></li>
+              <li><a href="#works">{t('header.works')}</a></li>
+              <li><a href="#price">{t('header.price')}</a></li>
+              <li><a href="#references">{t('header.references')}</a></li>
+              <li><a href="#contact">{t('header.contacts')}</a></li>
             </ul>
           </nav>
           <div className={styles.languageSwitcher}>
-            <button onClick={() => changeLanguage('en')} className={i18n.language === 'en' ? styles.active : ''}>EN</button>
-            <button onClick={() => changeLanguage('ua')} className={i18n.language === 'ua' ? styles.active : ''}>UA</button>
-            <button onClick={() => changeLanguage('sk')} className={i18n.language === 'sk' ? styles.active : ''}>SK</button>
+            <button onClick={() => changeLanguage('en')} className={getClassName('en')}>EN</button>
+            <button onClick={() => changeLanguage('ua')} className={getClassName('ua')}>UA</button>
+            <button onClick={() => changeLanguage('sk')} className={getClassName('sk')}>SK</button>
           </div>
         </div>
       </div>
