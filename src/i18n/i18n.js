@@ -18,13 +18,14 @@ i18n
     lng: getLanguageFromLocalStorage() || 'en', // Проверяем localStorage только в браузере
     resources: {
       en: { translations: require('./locales/en/translations.json') },
-      uk: { translations: require('./locales/ua/translations.json') },
+      ua: { translations: require('./locales/ua/translations.json') },
       sk: { translations: require('./locales/sk/translations.json') },
     },
     ns: ['translations'],
     defaultNS: 'translations',
+    react: { useSuspense: false }
   });
 
-i18n.languages = ['en', 'uk', 'sk'];
+i18n.languages = ['en', 'ua', 'sk'];
 
 export default i18n;

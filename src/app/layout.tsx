@@ -1,5 +1,6 @@
 // src/app/layout.tsx
 import React from 'react';
+import './globals.css';
 import { Roboto } from 'next/font/google';
 import I18nextProviderWrapper from './components/I18nextProviderWrapper/I18nextProviderWrapper';
 
@@ -23,4 +24,4 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </body>
     </html>
   );
-}
+} 

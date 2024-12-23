@@ -1,0 +1,41 @@
+.bodyTemplate {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bodyTemplate p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    width: 70%;
+}
+
+.industriesArray {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-top: 10px;
+    white-space: pre-line;
+}
+
+.leftColumn,
+.rightColumn {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.leftColumn ul,
+.rightColumn ul {
+    padding-left: 20px;
+}
+
+.leftColumn li,
+.rightColumn li {
+    list-style-type: disc;
+    margin-top: 10px;
+}

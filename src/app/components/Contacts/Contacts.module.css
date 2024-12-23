@@ -1,0 +1,53 @@
+.bodyTemplate {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bodyTemplate p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    width: 70%;
+}
+
+.industriesArray {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: 20px;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.rightColumn {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+.link{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+.rightColumn li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.rightColumn ul:hover{
+    color: var(--primary-color);
+}
+
+.link:hover{
+    color: var(--primary-color);
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

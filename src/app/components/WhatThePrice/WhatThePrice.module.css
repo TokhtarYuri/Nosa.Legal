@@ -1,0 +1,14 @@
+.bodyTemplate {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 80px;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 40px;
+}
+
+.bodyTemplate p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+}

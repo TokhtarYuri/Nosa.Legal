@@ -1,6 +1,18 @@
 {
+    "header": {
+        "who_are_we": "Kto sme",
+        "why_us": "Prečo práve my",
+        "offer": "Čo ponúkame",
+        "works": "Ako pracujeme",
+        "price": "Cena",
+        "references": "Referencie",
+        "contacts": "Kontaktné údaje"
+    },
     "main": {
-        "home":"home"
+        "law_office": "Advokátska kancelária",
+        "on_your_side": "Vždy na vašej strane",
+        "contact_us": "Kontaktujte nás",
+        "values": "Kto sme?"
     },
     "about_us": {
         "title": "Kto sme?",
@@ -19,7 +31,8 @@
     "services": {
         "title": "Čo ponúkame?",
         "description": "Naším hlavným cieľom je poskytovať našim klientom komplexné služby v oblasti obchodného, občianskeho a správneho práva. Špecializujeme sa na štruktúrovanie cezhraničných transakcií a biznisu s dôrazom na vstup na trh a akvizície. Ďalej sa zameriavame na prípravu zmlúv, právo obchodných spoločností, zastupovanie v správnych a daňových konaniach, transakcie s nehnuteľnosťami a zastupovanie pred súdmi.",
-        "expertise": "Pevne veríme, že investícia do kvalifikovaných právnych služieb vždy prináša dobrú návratnosť. Angažovanie právnika je najefektívnejšie vo fáze plánovania alebo v rámci úvodných rokovaní s potenciálnymi partnermi. Takýto postup zvyčajne umožňuje našim klientom minimalizovať riziká, zabezpečiť najvýhodnejšie podmienky a položiť pevné právne základy pre nový podnik.",
+        "expertise": "Pevne veríme, že investícia do kvalifikovaných právnych služieb vždy prináša dobrú návratnosť.",
+        "expertise_2": "Angažovanie právnika je najefektívnejšie vo fáze plánovania alebo v rámci úvodných rokovaní s potenciálnymi partnermi. Takýto postup zvyčajne umožňuje našim klientom minimalizovať riziká, zabezpečiť najvýhodnejšie podmienky a položiť pevné právne základy pre nový podnik.",
         "benefits": "Sme tu pre to, aby sme Vám pomohli vyhnúť sa konfliktom. Ak však dôjde k nedorozumeniu, sme pripravení hájiť Vaše záujmy prostredníctvom krízových rokovaní, alternatívneho riešenia sporov alebo pred akýmkoľvek súdom.",
         "values": "Čestnosť. Spoľahlivosť."
     },
@@ -40,27 +53,19 @@
     "references": {
         "title": "A čo referencie?",
         "description": "Keďže dôsledne dodržiavame advokátsku mlčanlivosť, môžeme zverejniť len oblasti podnikania, v ktorých pôsobia niektorí naši klienti:",
-        "industries": [
-            "technológie obnoviteľných zdrojov energie",
-            "montáž a submontáž kovových výrobkov",
-            "konštrukcia a výroba dronov",
-            "obchod s obilím",
-            "výstavba a prevádzka nehnuteľností",
-            "poskytovanie kuriérskych a poštových služieb",
-            "telekomunikačné služby",
-            "výroba cestných vozidiel",
-            "výroba odevov",
-            "obchod s umeleckými dielami",
-            "železničná a cestná doprava",
-            "zdravotnícke služby"
-        ],
-        "more": "a mnoho ďalších...",
+        "industries": "technológie obnoviteľných zdrojov energie\nmontáž a submontáž kovových výrobkov\nkonštrukcia a výroba dronov\nobchod s obilím\nvýstavba a prevádzka nehnuteľností\nposkytovanie kuriérskych a poštových služieb",
+        "industries_2": "telekomunikačné služby\nvýroba cestných vozidiel\nvýroba odevov\nobchod s umeleckými dielami\nželezničná a cestná doprava\nzdravotnícke služby a mnoho ďalších...",
         "values": "Mlčanlivosť predovšetkým."
     },
     "contact": {
         "title": "Kontaktné údaje:",
+        "city": "Bratislava",
+        "address_title": "Adresa:",
+        "phone_title": "Telefón:",
+        "email_title": "Email:",
         "address": "Koreničova 699/2\n811 03 Bratislava\nSlovenská republika",
-        "phone": "tel.: +421 948 043 449",
-        "email": "email: bratislava@nosa.legal"
+        "phone": "+421 948 043 449",
+        "email": "bratislava@nosa.legal",
+        "values": "©2024 -Nosa Legal"
     }
 }

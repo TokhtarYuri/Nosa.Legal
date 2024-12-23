@@ -1,6 +1,17 @@
 {
+    "header": {
+        "who_are_we": "Who are we",
+        "why_us": "Why us",
+        "offer": "What’s on offer",
+        "works": "How it works",
+        "price": "Price",
+        "references": "References",
+        "contacts": "Contacts"
+    },
     "main": {
-        "home":"Home"
+        "law_office": "Law office",
+        "on_your_side": "Always on your side",
+        "contact_us": "Contact us"
     },
     "about_us": {
         "title": "Who are we?",
@@ -19,7 +30,8 @@
     "services": {
         "title": "What’s on offer?",
         "description": "Our principal goal is to provide our clients with a full scope of services in commercial, civil, and administrative law. Our area of expertise lies in the structuring of cross-border transactions and businesses with an emphasis on market entry and acquisitions. We further focus on contract drafting, general corporate counselling, representation in administrative and tax proceedings, real estate transactions and litigation.",
-        "expertise": "We strongly believe that investing in qualified legal advice always yields a good return. The engagement of an attorney is the most efficient during the planning stage or within initial negotiations with prospective partners. Doing so usually allows our clients to minimize the risks, secure the most favourable terms, and lay a solid legal foundation for a new undertaking.",
+        "expertise": "We strongly believe that investing in qualified legal advice always yields a good return.",
+        "expertise_2": "The engagement of an attorney is the most efficient during the planning stage or within initial negotiations with prospective partners. Doing so usually allows our clients to minimize the risks, secure the most favourable terms, and lay a solid legal foundation for a new undertaking.",
         "benefits": "We are here to help you to avoid conflicts. However, should a misunderstanding occur, we are ready to defend your interests through crisis negotiation, alternative dispute resolution or in a tribunal of any kind.",
         "values": "Integrity. Reliability."
     },
@@ -40,27 +52,19 @@
     "references": {
         "title": "How about references?",
         "description": "Since we do religiously obey attorney-client privilege, we may disclose only areas of business some of our clients operate in:",
-        "industries": [
-            "renewable energy technologies",
-            "assembly and sub-assembly of metal products",
-            "drone design and manufacturing",
-            "grain trade and brokerage",
-            "construction and operation of real estate",
-            "provision of courier and postal services",
-            "telco services",
-            "road vehicle manufacturing",
-            "garments production",
-            "art brokerage",
-            "railway and road transportation",
-            "healthcare services"
-        ],
-        "more": "and many more…",
+        "industries": "renewable energy technologies\n assembly and sub-assembly of metal products\ndrone design and manufacturing\ngrain trade and brokerage\nconstruction and operation of real estate\nprovision of courier and postal services",
+        "industries_2": "telco services\nroad vehicle manufacturing\ngarments production\nart brokerage\nrailway and road transportation\nhealthcare services and many more…",
         "values": "Attorney-client privilege first."
     },
     "contact": {
         "title": "Contacts:",
+        "city": "Bratislava",
+        "address_title": "Adress:",
+        "phone_title": "Phone:",
+        "email_title": "Email:",
         "address": "699/2 Koreničova Str.\n811 03 Bratislava\nSlovak Republic",
         "phone": "+421 948 043 449",
-        "email": "bratislava@nosa.legal"
+        "email": "bratislava@nosa.legal",
+        "values": "©2024 -Nosa Legal"
     }
 }
