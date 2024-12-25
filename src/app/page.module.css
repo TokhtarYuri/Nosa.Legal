@@ -11,13 +11,8 @@
     flex-direction: column;
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;  
-  }
-
-/*   .section {
-    padding: 20px;
-    background-color: #f9f9f9;
-  } */
+    scroll-behavior: smooth;
+}
 
 .main_container::-webkit-scrollbar {
     width: 2px;
@@ -31,3 +26,39 @@
 .main_container::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
+
+@media (max-width: 1700px) {
+    .main {
+        margin-top: 80px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main_container {
+        min-height: 100vh;
+        overflow-y: auto; 
+        scroll-snap-type: none;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main_container {
+        scroll-snap-type: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+
+}
+
+@media (min-width: 1441px) and (max-width: 1700px) {
+
+}
+

@@ -32,7 +32,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleHashChange = () => {
-      const hash = window.location.hash;
+      const hash = window.location.hash||"#main";
       const element = document.querySelector(hash);
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
@@ -56,9 +56,12 @@ export default function Home() {
           <section id="main">
             <Main />
           </section>
+          asrdgargregreg
           <section id="about-us">
             <WhoAreWe />
           </section>
+          asdfadsfafkjwelhfiuegre
+          raegraegwreqgqreh
           <section id="why-us">
             <WhyUs />
           </section>

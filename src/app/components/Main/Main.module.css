@@ -95,3 +95,73 @@ padding-bottom: 30px;
 .secondaryButton:active {
   color: var(--primary-color);
 }
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+    grid-template-columns: 0fr 1fr;
+  }
+  .textBlock {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .textBlockСontainer h1{
+    padding-top: 30px;
+    font-size: 3rem;
+  }
+  .imageBlock{
+    display: none;
+  }
+  .secondaryButton {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    margin-top: 30px;
+    grid-template-columns: 1fr 4fr;
+  }
+  .textBlock {
+    padding: 40px;
+  }
+  .textBlockСontainer h1{
+    padding-top: 50px;
+    font-size: 4rem;
+  }
+  .secondaryButton {
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .textBlock {
+    padding: 50px;
+  }
+  .textBlockСontainer h1{
+    padding-top: 30px;
+    font-size: 4rem;
+  }
+  .secondaryButton {
+    font-size: 1.3rem;
+  }
+}
+
+
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .textBlock {
+    padding: 50px;
+  }
+  .textBlockСontainer h1{
+    padding-top: 30px;
+    font-size: 5rem;
+  }
+  .secondaryButton {
+    font-size: 1.4rem;
+  }
+}
+
