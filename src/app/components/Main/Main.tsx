@@ -9,7 +9,6 @@ interface MainProps {
     id?: string;
   }
 
-
 const Main: React.FC<MainProps> = ({ id }) => {
     const { t } = useTranslation();
 

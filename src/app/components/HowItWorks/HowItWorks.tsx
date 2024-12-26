@@ -6,7 +6,7 @@ import Template from "../Template/Template";
 
 interface HowItWorksProps {
     id?: string;
-  }
+}
 
 const HowItWorks: React.FC<HowItWorksProps> = ({ id }) => {
     const { t } = useTranslation();

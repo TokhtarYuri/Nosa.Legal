@@ -40,13 +40,11 @@
     margin-top: 10px;
 }
 
-
-
 @media (max-width: 768px) {
     .bodyTemplate {
-      padding: 30px; 
+        padding: 30px;
     }
-  
+
     .bodyTemplate p {
         font-size: 1.2rem;
         line-height: 1.3;
@@ -55,36 +53,58 @@
 
     .industriesArray {
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         margin-top: 8px;
-        gap: 0; 
+        gap: 0;
     }
-    
+
     .leftColumn,
     .rightColumn {
         font-size: 1.2rem;
         line-height: 1.3;
     }
-    
-  }
 
-  @media (min-width: 769px) and (max-width: 1280px) {
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
     .bodyTemplate {
         padding: 30px;
         gap: 20px;
     }
-    
+
     .bodyTemplate p {
         font-size: 1.4rem;
         line-height: 1.4;
         width: 85%;
     }
-    
+
     .leftColumn,
     .rightColumn {
         font-size: 1.3rem;
         line-height: 1.4;
     }
-    
-  }
-   
+
+}
+
+@media (min-width: 1025px) and (max-width: 1800px) and (max-height: 1078px) {
+    .bodyTemplate {
+        padding: 30px 60px;
+        gap: 10px;
+    }
+
+    .bodyTemplate p {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    .industriesArray {
+        gap: 10px;
+    }
+
+    .leftColumn,
+    .rightColumn {
+        font-size: 1.3rem;
+        line-height: 1.3;
+    }
+
+}

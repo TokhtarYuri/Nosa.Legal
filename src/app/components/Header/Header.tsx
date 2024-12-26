@@ -9,8 +9,8 @@ export default function Header() {
   const [isClient, setIsClient] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [screenWidth, setScreenWidth] = useState<number>(0);
-  const menuRef = useRef<HTMLDivElement>(null); // Ссылка на меню
-  const menuButtonRef = useRef<HTMLDivElement>(null); // Ссылка на кнопку меню
+  const menuRef = useRef<HTMLDivElement>(null);
+  const menuButtonRef = useRef<HTMLDivElement>(null);
 
   const getClassName = (lang: string) =>
     i18n.language === lang ? styles.active : '';
@@ -48,7 +48,6 @@ export default function Header() {
     updateScreenWidth();
     window.addEventListener('resize', updateScreenWidth);
 
-    // Закрытие меню при клике вне его
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node) &&
         !menuButtonRef.current?.contains(event.target as Node)) {

@@ -6,7 +6,7 @@ import Template from "../Template/Template";
 
 interface ReferencesProps {
     id?: string;
-  }
+}
 
 const References: React.FC<ReferencesProps> = ({ id }) => {
     const { t } = useTranslation();

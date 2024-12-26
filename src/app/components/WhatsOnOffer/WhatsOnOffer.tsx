@@ -6,7 +6,7 @@ import Template from "../Template/Template";
 
 interface WhatsOnOfferProps {
     id?: string;
-  }
+}
 
 const WhatsOnOffer: React.FC<WhatsOnOfferProps> = ({ id }) => {
     const { t } = useTranslation();

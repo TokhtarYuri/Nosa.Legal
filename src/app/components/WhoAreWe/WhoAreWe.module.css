@@ -62,3 +62,21 @@
   }
 }
  
+@media (min-width: 1025px) and (max-width: 1800px) and (max-height: 1078px) {
+  .bodyTemplate {
+    padding: 30px 60px;
+    gap: 100px;
+  }
+  
+  .leftColumn,
+  .rightColumn {
+    gap: 20px;
+  }
+  
+  .leftColumn p,
+  .rightColumn p {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+  
+}

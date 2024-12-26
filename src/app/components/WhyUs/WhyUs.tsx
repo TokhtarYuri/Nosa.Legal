@@ -6,7 +6,7 @@ import Template from "../Template/Template";
 
 interface WhyUsProps {
     id?: string;
-  }
+}
 
 const WhyUs: React.FC<WhyUsProps> = ({ id }) => {
     const { t } = useTranslation();

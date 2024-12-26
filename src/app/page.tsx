@@ -76,7 +76,7 @@ export default function Home() {
           </section>
           <section id="contact">
             <Contacts />
-          </section> 
+          </section>
         </div>
       </main>
     </>

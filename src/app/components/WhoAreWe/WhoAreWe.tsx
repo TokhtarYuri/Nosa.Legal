@@ -6,7 +6,7 @@ import Template from "../Template/Template";
 
 interface WhoAreWeProps {
     id?: string;
-  }
+}
 
 const WhoAreWe: React.FC<WhoAreWeProps> = ({ id }) => {
     const { t } = useTranslation();
@@ -22,7 +22,6 @@ const WhoAreWe: React.FC<WhoAreWeProps> = ({ id }) => {
         </div>
     )
 
-
     return (
         <>
             <Template
@@ -33,4 +32,4 @@ const WhoAreWe: React.FC<WhoAreWeProps> = ({ id }) => {
     );
 }
 
-export default  WhoAreWe;
+export default WhoAreWe;

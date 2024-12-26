@@ -21,7 +21,7 @@ body {
   --background-color-white: #ffffff;
   --background-color: #fafafa;
   --text-color: #333333;
-  --header-height: 100px; 
+  --header-height: 100px;
   --column-number-color: #e1e1e1;
 }
 
@@ -44,21 +44,44 @@ p {
   margin-bottom: 1rem;
   color: var(--text-color);
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
 
-button, 
-div, 
+button,
+div,
 a {
   user-select: none;
-  outline: none; 
+  outline: none;
 }
 
-button:focus, 
-div:focus, 
+button:focus,
+div:focus,
 a:focus {
-  outline: none; 
+  outline: none;
+}
+
+button,
+a {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  color: inherit !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+button:focus,
+a:focus {
+  outline: none;
 }
