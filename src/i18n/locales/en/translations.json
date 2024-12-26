@@ -65,6 +65,6 @@
         "address": "699/2 Koreničova Str.\n811 03 Bratislava\nSlovak Republic",
         "phone": "+421 948 043 449",
         "email": "bratislava@nosa.legal",
-        "values": "©2024 -Nosa Legal"
+        "values": "©{{year}} - Nosa Legal"
     }
 }

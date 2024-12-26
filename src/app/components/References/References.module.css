@@ -39,3 +39,52 @@
     list-style-type: disc;
     margin-top: 10px;
 }
+
+
+
+@media (max-width: 768px) {
+    .bodyTemplate {
+      padding: 30px; 
+    }
+  
+    .bodyTemplate p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        width: 100%;
+    }
+
+    .industriesArray {
+        display: flex;
+        flex-direction: column; 
+        margin-top: 8px;
+        gap: 0; 
+    }
+    
+    .leftColumn,
+    .rightColumn {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+    
+  }
+
+  @media (min-width: 769px) and (max-width: 1280px) {
+    .bodyTemplate {
+        padding: 30px;
+        gap: 20px;
+    }
+    
+    .bodyTemplate p {
+        font-size: 1.4rem;
+        line-height: 1.4;
+        width: 85%;
+    }
+    
+    .leftColumn,
+    .rightColumn {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+    
+  }
+   

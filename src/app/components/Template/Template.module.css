@@ -9,8 +9,7 @@
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   align-items: stretch;
   width: 100%;
   margin: 0 auto;
@@ -21,9 +20,11 @@
 
 
 .imageBlock {
-  grid-column: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: var(--secondary-color);
-  width: 100%;
+  width: 50%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -36,21 +37,7 @@
   object-fit: cover;
 }
 
-.textBlock {
-  grid-column: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--background-color);
-  padding: 50px 80px 80px 80px;
-  box-sizing: border-box;
-  height: 100%;
-}
-
 .bodyBlock {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   display: flex;
@@ -103,62 +90,65 @@
   background-color: rgba(211, 166, 41, 0.8);
 }
 
+
+
+
+
 @media (max-width: 1024px) {
   .main {
-/*     height: 3000px; */
+    height: auto;
   }
 
-  .container {
-    grid-template-columns: 1fr 0fr;
+  .bodyBlock {}
 
-  }
-
-  .textBlock {
-    display: none;
-  }
-
-  .titleTemplateContainer,
-  .bodyTemplateContainer,
-  .footerTemplateContainer {
-    flex: none;
-    width: 100%;
-  }
-
-
-  .titleTemplateContainer,
-  .footerTemplateContainer {
-    height: 160px;
-    margin-top: 0;
-    justify-content: center;
-    text-align: center;
+  .titleTemplateContainer {
+    display: flex;
     align-items: center;
+    margin: 25px 0;
   }
 
-  .bodyTemplateContainer {
-/*     height: auto; */
+  .titleTemplateContainer h2 {
+    padding: 5px 20px;
+    width: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .titleTemplateContainer img {
     display: none;
   }
 
-  .titleTemplateContainer h2 {
-    padding: 5px 20px;
-    width: 100%;
-    font-size: 1.5rem;
+  .bodyTemplateContainer {
+
+  }
+
+  .footerTemplateContainer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0;
   }
 
   .footerTemplateContainer h3 {
-    padding: 5px 20px;
+    padding: 5px;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .titleTemplateContainer h2 {
+    padding: 5px 5px 5px 40px;
+    font-size: 1.9rem;
+  }
+
+  .footerTemplateContainer h3 {
+    font-size: 1.3rem;
   }
 
 }
-
-@media (min-width: 769px) and (max-width: 1024px) {}
-
-@media (min-width: 1025px) and (max-width: 1280px) {}
 
 @media (min-width: 1281px) and (max-width: 1440px) {}
 

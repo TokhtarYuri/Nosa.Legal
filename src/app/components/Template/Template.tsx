@@ -19,8 +19,6 @@ export default function Template({ titleTemplate, bodyTemplate, footerTemplate }
                 <div className={styles.imageBlock}>
                      <img src="/images/main-banner.jpg" alt="Main banner" className={styles.banner} />
                  </div>
-                <div className={styles.textBlock}>
-                </div>
                 <div className={styles.bodyBlock}>
                     <div className={styles.titleTemplateContainer}>
                         <h2>{titleTemplate}</h2>

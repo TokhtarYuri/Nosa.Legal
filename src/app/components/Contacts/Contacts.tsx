@@ -6,10 +6,13 @@ import Template from "../Template/Template";
 
 interface ContactsProps {
     id?: string;
-  }
+}
 
 const Contacts: React.FC<ContactsProps> = ({ id }) => {
     const { t } = useTranslation();
+
+    const currentYear = new Date().getFullYear();
+
     const bodyTemplate = (
         <div className={`${styles.bodyTemplate} ${styles.uppercase}`}>
             <p className={`${styles.uppercase} ${styles.bold}`}>
@@ -48,7 +51,7 @@ const Contacts: React.FC<ContactsProps> = ({ id }) => {
             <Template
                 titleTemplate={t("contact.title")}
                 bodyTemplate={bodyTemplate}
-                footerTemplate={t("contact.values")} />
+                footerTemplate={t("contact.values", { year: currentYear })} />
         </>
     );
 }

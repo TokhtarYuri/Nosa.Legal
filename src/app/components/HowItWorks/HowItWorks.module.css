@@ -1,38 +1,89 @@
 .bodyTemplate {
-    display: flex;
-    padding: 30px 80px;
-    gap: 120px;
-    width: 100%;
-    box-sizing: border-box;
+  display: flex;
+  padding: 30px 80px;
+  gap: 120px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .leftColumn,
 .rightColumn,
 .centerColumn {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
 }
 
 .leftColumn p,
 .rightColumn p,
 .centerColumn p {
-    font-size: 1.3rem;
-    line-height: 1.5;
-    margin: 0;
-    z-index: 20;
-    padding-left: 60px;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin: 0;
+  z-index: 20;
+  padding-left: 60px;
 }
 
 .numberColumn {
-    position: absolute;
-    top: -20px;
-    left: -15px;
-    z-index: 10;
-    font-size: 15rem;
-    line-height: 1;
+  position: absolute;
+  top: -20px;
+  left: -15px;
+  z-index: 10;
+  font-size: 15rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--column-number-color);
+}
+
+
+
+@media (max-width: 1024px) {
+  .bodyTemplate {
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 60px;
+  }
+
+  .leftColumn,
+  .rightColumn,
+  .centerColumn {
+    flex: none;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .leftColumn p,
+  .rightColumn p,
+  .centerColumn p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    padding-left: 40px;
+  }
+
+  .numberColumn {
+    top: -30px;
+    left: -10px;
+    font-size: 9rem;
+    line-height: 1.3;
     font-weight: 900;
-    color: var(--column-number-color);
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .bodyTemplate {
+    display: flex;
+    padding: 30px;
+    gap: 60px;
+  }
+  .leftColumn p,
+  .rightColumn p,
+  .centerColumn p {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    padding-left: 60px;
+  }
 }

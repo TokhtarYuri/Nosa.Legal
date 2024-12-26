@@ -37,8 +37,6 @@
 
 @media (max-width: 768px) {
     .main_container {
-        min-height: 100vh;
-        overflow-y: auto; 
         scroll-snap-type: none;
       }
 }

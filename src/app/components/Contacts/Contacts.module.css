@@ -51,3 +51,54 @@
 .uppercase {
     text-transform: uppercase;
 }
+
+
+@media (max-width: 768px) {
+    .bodyTemplate {
+      padding: 30px; 
+      gap: 15px; 
+    }
+  
+    .bodyTemplate p {
+        font-size: 1.2rem;
+        line-height: 1.3;
+        width: 90%;
+    }
+    
+    .industriesArray {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        gap: 15px;
+        width: 100%;
+    }
+    
+    .rightColumn,
+    .link {
+        font-size: 1.2rem;
+        line-height: 1.3;
+    }
+  }
+
+  @media (min-width: 769px) and (max-width: 1280px) {
+    .bodyTemplate {
+        padding: 30px;
+    }
+    
+    .bodyTemplate p {
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin: 0;
+        width: 70%;
+    }
+    
+    .industriesArray {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+        gap: 20px;
+        width: 70%;
+        margin-top: 10px;
+    }
+    
+    
+  }
+   

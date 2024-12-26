@@ -88,7 +88,7 @@ export default function Header() {
               <img src="/images/logo.png" alt="Logo" />
             </a>
           </div>
-          {screenWidth < 1600 && (
+          {screenWidth < 1280 && (
             <div
               ref={menuButtonRef}
               className={styles.burgerMenu}
@@ -100,7 +100,7 @@ export default function Header() {
             </div>
           )}
           {screenWidth > 1024 && (<>
-            {screenWidth >= 1600 && (
+            {screenWidth >= 1280 && (
               <nav className={styles.nav}>
                 <ul>
                   {navBarItems}
@@ -109,7 +109,7 @@ export default function Header() {
             )}
             {languageBar}
           </>)}
-          {screenWidth < 1600 && (<>
+          {screenWidth < 1280 && (<>
             <nav ref={menuRef} className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>
               <ul>
                 {screenWidth <= 1024 && (<>
